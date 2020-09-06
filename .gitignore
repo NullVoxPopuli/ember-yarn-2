@@ -1,5 +1,14 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+# yarn zero-install
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+
 # compiled output
 /dist/
 /tmp/
